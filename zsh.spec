@@ -1,7 +1,7 @@
 Summary:	Enhanced Bourne shell
 Name:		zsh
 Version:	5.0.0
-Release:	3
+Release:	6
 License:	BSD-like
 Group:		Applications/Shells
 Source0:	ftp://ftp.zsh.org/pub/%{name}-%{version}.tar.bz2
