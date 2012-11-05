@@ -20,7 +20,7 @@ export PAGER=${PAGER:-less}
 export MAIL=${MAIL:-/var/mail/$USER}
 
 # if we don't set $SHELL then aterm, rxvt,.. will use /bin/sh or /bin/bash :-/
-export SHELL='/bin/zsh'
+export SHELL='/usr/bin/zsh'
 
 # remove command lines from the history list when the first character on the
 # line is a space
