@@ -10,15 +10,6 @@ export SAVEHIST=50000
 
 export COLORTERM="yes"
 
-if [ -f /usr/bin/vim ]; then
-    export EDITOR=${EDITOR:-vim}
-else
-    export EDITOR=${EDITOR:-vi}
-fi
-
-export PAGER=${PAGER:-less}
-export MAIL=${MAIL:-/var/mail/$USER}
-
 # if we don't set $SHELL then aterm, rxvt,.. will use /bin/sh or /bin/bash :-/
 export SHELL='/usr/bin/zsh'
 

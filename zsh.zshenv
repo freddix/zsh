@@ -9,13 +9,3 @@
 # if zsh is started with -f
 #
 # Global Order: zshenv, zprofile, zshrc, zlogin
-
-# set environment variables (important for autologin on tty)
-export HOSTNAME=${HOSTNAME:-$(hostname)}
-
-# make sure /usr/bin/id is available
-if [[ -x /usr/bin/id ]] ; then
-    [[ -z "$USER" ]] && export USER=$(/usr/bin/id -un)
-    [[ $LOGNAME == LOGIN ]] && LOGNAME=$(/usr/bin/id -un)
-fi
-
