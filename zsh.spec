@@ -1,11 +1,11 @@
 Summary:	Enhanced Bourne shell
 Name:		zsh
-Version:	5.0.0
-Release:	8
+Version:	5.0.2
+Release:	1
 License:	BSD-like
 Group:		Applications/Shells
 Source0:	ftp://ftp.zsh.org/pub/%{name}-%{version}.tar.bz2
-# Source0-md5:	74c5b275544400082a1cde806c98682a
+# Source0-md5:	b8f2ad691acf58b3252225746480dcad
 Source3:	%{name}.dotrc
 Source4:	%{name}.zlogin
 Source5:	%{name}.zlogout
