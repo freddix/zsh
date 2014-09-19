@@ -1,11 +1,12 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/zsh.git
 Summary:	Enhanced Bourne shell
 Name:		zsh
-Version:	5.0.5
+Version:	5.0.6
 Release:	1
 License:	BSD-like
 Group:		Applications/Shells
 Source0:	ftp://ftp.zsh.org/pub/%{name}-%{version}.tar.bz2
-# Source0-md5:	6156dc2f19b0a067bdbc0fb7f81e2017
+# Source0-md5:	7150a6abc2aa1a79d81ed9a282594225
 Source3:	%{name}.dotrc
 Source4:	%{name}.zlogin
 Source5:	%{name}.zlogout
