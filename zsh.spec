@@ -1,12 +1,12 @@
 # based on PLD Linux spec git://git.pld-linux.org/packages/zsh.git
 Summary:	Enhanced Bourne shell
 Name:		zsh
-Version:	5.0.6
+Version:	5.0.7
 Release:	1
 License:	BSD-like
 Group:		Applications/Shells
 Source0:	ftp://ftp.zsh.org/pub/%{name}-%{version}.tar.bz2
-# Source0-md5:	7150a6abc2aa1a79d81ed9a282594225
+# Source0-md5:	1cd396ce17952de50b8a89980d617f0a
 Source3:	%{name}.dotrc
 Source4:	%{name}.zlogin
 Source5:	%{name}.zlogout
@@ -91,7 +91,6 @@ end
 
 %files
 %defattr(644,root,root,755)
-
 %doc Etc/* README LICENCE ChangeLog META-FAQ Util StartupFiles
 
 %dir %{_datadir}/zsh
@@ -119,6 +118,7 @@ end
 %config(noreplace,missingok) %verify(not md5 mtime size) %{_sysconfdir}/zsh/zshrc
 %ghost %{_sysconfdir}/zsh/*.zwc
 
+%{_datadir}/zsh/%{version}/help
 %{_datadir}/zsh/functions
 %{_datadir}/zsh/scripts/newuser
 %{_mandir}/man1/zsh*.1*
